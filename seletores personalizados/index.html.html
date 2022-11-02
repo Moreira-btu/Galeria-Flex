@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <style>
+        body{
+            margin: 10px 10px 10px 10px ;
+            background-image: linear-gradient(45deg,#999,#fff);
+          
+                   
+        }
+        header{
+            text-align: center;
+            background-image: url(../img/noite.jpg);
+            background-repeat: no-repeat;
+            background-size: 100vw;
+            color: white;
+            height: 100px;
+        
+
+        }
+        #galeria-01{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            margin-left: 100px;
+        }
+        .galeria{
+            
+            display:block;
+            text-align: center;
+            margin: 15px ;
+            width: 400px;
+            height: 300px;
+            border: 2px solid rgba(0,0,0,.4);
+            box-shadow: 5px 5px 20px 5px #666;
+         }
+         .galeria :hover{
+            transition: all 1s;
+            transform: scale(1.1);
+            box-shadow: 5px 5px 20px;
+
+         }
+         .img{
+            width: 400px;
+            height: 300px;
+            position: relative;
+            
+         }
+         h2{
+            display:inline-block;
+            position:relative;
+         }
+         .geleria-01 h2:hover {
+            text-align: center;
+            background-color: rgba(0,0,0,.4);
+            z-index: 1000px;
+            
+         }
+         footer{
+            text-align: center;
+            color: black;
+            
+         }
+         footer a {
+            margin-top: 100px;
+            text-decoration: none;
+            color: black;
+         }
+
+    </style>
+</head>
+<body>
+    <header>
+        <hr>
+        <h1>Galeria ...</h1>
+        
+    </header>
+    <hr>
+    <div id="galeria-01">
+        <div><h2>Titulo 1</h2>
+    <div class="galeria">
+        
+            <img class="img" src="../img/manha.jpg" alt="">
+        </div>
+    </div>
+    <div><h2>Titulo 2</h2>
+    <div class="galeria">
+        
+        <img  class="img" src="../img/tarde.jpg" alt="">
+    </div></div>
+    <div><h2>Titulo 3</h2>
+    <div class="galeria">
+        
+        <img class="img" src="../img/noite.jpg" alt="">
+        </div>
+    </div>
+    <div><h2>Titulo 4</h2>
+    <div class="galeria">
+        
+        <img class="img" src="../img/pexels-anderson-martins-2386144 (1).jpg" alt="">
+    </div>    
+    </div>
+    <div><h2>Titulo 5</h2>
+    <div class="galeria">
+         
+        <img class="img" src="../img/botucatu.jpg" alt="">
+        </div>
+    </div>
+    <div><h2>Titulo 7</h2>
+    <div class="galeria">
+        
+        <img class="img" src="../img/baixados.jpg" alt="">
+     </div>   
+    </div>
+    <div><h2>Titulo 8</h2>
+    <div class="galeria">
+        
+        <img class="img" src="../img/bebê-menina.jpg" alt="">
+        
+      </div>  
+    </div>
+</div>
+<footer>
+    <a href="https://github.com/Moreira-btu">&COPY;by Alex Moreira <br>
+    editado 02/11/2022 <br>
+    <img src="../img/icone-github.png" alt="">
+</a>
+
+</footer>
+</body>
+</html>
